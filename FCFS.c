@@ -27,7 +27,11 @@ int main()
         avtat=avtat+tat[i];
         printf(" \n P[%d]\t\t %d\t\t %d\t\t %d\t\t",i,bt[i],wt[i],tat[i]);
     }
+   avwt=avwt/n;
+   avtat=avtat/n;
 
+   printf(" \n\n AVERAGE WAITING TIME  : %d",avwt);
+   printf(" \n\nAVERAGE TURN AROUND TIME  : %d \n\n",avtat);
 
 
 
